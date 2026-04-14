@@ -1,0 +1,22 @@
+{
+  "name": "basic-web-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "blocks.pkg.dev.build dev:build",
+    "build": "blocks.pkg.dev.build prod:build",
+    "prepare": "blocks.pkg.dev.setup dev:husky:setup:git"
+  },
+  "devDependencies": {
+    "@build-in-blocks/dev.build": "1.0.5",
+    "@build-in-blocks/dev.resources": "1.0.4",
+    "@build-in-blocks/dev.setup": "1.0.5",
+    "@build-in-blocks/dom.autoquery": "1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
