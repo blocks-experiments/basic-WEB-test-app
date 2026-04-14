@@ -13,8 +13,7 @@
   "devDependencies": {
     "@build-in-blocks/dev.build": "1.0.5",
     "@build-in-blocks/dev.resources": "1.0.4",
-    "@build-in-blocks/dev.setup": "1.0.5",
-    "@build-in-blocks/dom.autoquery": "1.0.0"
+    "@build-in-blocks/dev.setup": "1.0.5"
   },
   "keywords": [],
   "author": "",
