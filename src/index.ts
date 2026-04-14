@@ -4,8 +4,6 @@ export const getAppInfo = async () => {
   return info;
 };
 
-// const test = '';
-
 const app = async () => {
   //-------------------------------------------------
   // This module loads immediately the web page loads
